@@ -253,6 +253,7 @@ a {
 }
 .bg-color {
   background-color: #0078ff;
+  box-shadow: 1px 1px 8px #333;
 }
 .size-inc {
   padding: 20px;
@@ -261,8 +262,9 @@ a {
   margin: 15px;
 }
 .bg-color:hover {
-  box-shadow: 2px 3px 10px #333;
-  transform: scale(1.01)
+  transform: scale(1.03);
+  transition: all 0.2s ease-in-out;
+  
 }
 .card-gird {
   display: flex;
